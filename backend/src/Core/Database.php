@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace App\Core;
 
 use PDO;
-use RuntimeException;
+use PDOException;
 
 class Database
 {
